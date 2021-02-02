@@ -22,3 +22,7 @@ Defines a one-to-many relationship between a set of objects. When the state of o
 **3. Decorator:**
 
 Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+**4. Factory:**
+
+Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.

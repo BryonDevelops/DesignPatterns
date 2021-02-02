@@ -18,3 +18,7 @@ Defines a family of algorithms, encapsulates each one, and makes them interchang
 **2. Observer:**
 
 Defines a one-to-many relationship between a set of objects. When the state of one object changes, all of its dependents are notified and updated automatically.
+
+**3. Decorator:**
+
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.

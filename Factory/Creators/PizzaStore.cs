@@ -1,4 +1,4 @@
-public class PizzaStore
+public abstract class PizzaStore
 {
     SimplePizzaFactory factory;
 
@@ -7,6 +7,8 @@ public class PizzaStore
     public Pizza OrderPizza(string type){
         Pizza pizza;
 
+        pizza = CreatePizza(type);
+
         pizza.Prepare();
         pizza.Bake();
         pizza.Cut();
@@ -14,4 +16,6 @@ public class PizzaStore
 
         return pizza;
     }
+
+    protected abstract Pizza CreatePizza(string type);
 }

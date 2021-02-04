@@ -35,3 +35,8 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
   **6. Singleton:**
 
  Ensures a class has only one instance, and provides a global point of access to it.
+
+  **7. Command:**
+  
+   Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+   

@@ -4,7 +4,8 @@ public abstract class PizzaStore
 
     public PizzaStore(SimplePizzaFactory factory) => this.factory = factory;
 
-    public Pizza OrderPizza(string type){
+    public Pizza OrderPizza(string type)
+    {
         Pizza pizza;
 
         pizza = CreatePizza(type);

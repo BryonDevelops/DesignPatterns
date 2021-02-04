@@ -1,6 +1,7 @@
 public class ChicagoStylePizzaStore : PizzaStore
 {
-    public Pizza CreatePizza(string item){
+    public Pizza CreatePizza(string item)
+    {
         switch (item)
         {
             case "Cheese":

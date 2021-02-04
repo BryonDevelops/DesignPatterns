@@ -1,6 +1,5 @@
 public class NYStyleCheesePizza : Pizza
 {
-    #region Constructor
     public NYStyleCheesePizza()
     {
         name = "NY Style Sauce and Cheese Pizza";
@@ -9,5 +8,4 @@ public class NYStyleCheesePizza : Pizza
 
         toppings.Add("Greated Reggiano Cheese");
     }
-    #endregion
 }

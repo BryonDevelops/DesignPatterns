@@ -31,3 +31,7 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
  **5. Abstract Factory:**
 
  Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+ 
+  **6. Singleton:**
+
+ Ensures a class has only one instance, and provides a global point of access to it.

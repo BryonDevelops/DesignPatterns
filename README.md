@@ -8,6 +8,7 @@ A way for me to learn and understand various Design Patterns defined by the GoF.
 - Favor composition over inheritance.
 - Program to interfaces, not implementations.
 - Strive for loosely coupled designs between objects that interact.
+- Depend on abstractions. Do not depend on concrete classes.
 
 ## Patterns
 
@@ -22,3 +23,11 @@ Defines a one-to-many relationship between a set of objects. When the state of o
 **3. Decorator:**
 
 Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+**4. Factory Method:**
+
+ Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+
+ **5. Abstract Factory:**
+
+ Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
